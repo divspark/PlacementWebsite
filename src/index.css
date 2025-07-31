@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.react-calendar {
+  width: 100%;
+  background: white;
+  border: none;
+  font-family: inherit;
+}
+
+.react-calendar__tile {
+  position: relative;
+  padding: 0.75rem 0.5rem;
+  background: none;
+  border: none;
+  font-size: 0.875rem;
+  border-radius: 0.5rem;
+  margin: 2px;
+  transition: all 0.2s;
+}
+
+.react-calendar__tile:hover {
+  background-color: #f3f4f6;
+}
+
+.react-calendar__tile--active {
+  background-color: #3b82f6 !important;
+  color: white;
+}
+
+.react-calendar__tile.has-event {
+  background-color: #eff6ff;
+  border: 1px solid #dbeafe;
+}
+
+.react-calendar__navigation button {
+  color: #374151;
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  border: none;
+  background: none;
+  transition: all 0.2s;
+}
+
+.react-calendar__navigation button:hover {
+  background-color: #f3f4f6;
+}
+
+.react-calendar__month-view__weekdays {
+  text-align: center;
+  font-weight: 600;
+  font-size: 0.75rem;
+  color: #6b7280;
+  text-transform: uppercase;
+}
