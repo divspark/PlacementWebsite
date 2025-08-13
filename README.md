@@ -1,6 +1,6 @@
 # College Placement Website – Frontend
 
-![Project Screenshot](./path/to/your-image.png)
+![Project Screenshot](./PlacementWebsiteImg.png)
 *Replace the path above with the path to your screenshot.*
 
 ---
