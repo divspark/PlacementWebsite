@@ -1,6 +1,9 @@
 # College Placement Website – Frontend
 
-![Project Screenshot](./PlacementWebsiteImg.png)
+<p align="center">
+  <img src="./PlacementWebsiteImg.png" alt="Placement Website Screenshot" width="600">
+</p>
+
 
 ---
 
